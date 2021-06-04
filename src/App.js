@@ -6,7 +6,7 @@ import Home from './components/Home';
 import NotFound from './components/NotFound';
 import { GlobalStyle } from './GlobalStyle';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Header />
@@ -14,5 +14,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
