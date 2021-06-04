@@ -41,6 +41,14 @@ export const Content = styled.div`
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+  @media screen and (max-width: 425px) {
+    display: block;
+    padding-bottom: 0;
+
+    .logo {
+      font-size: 0.75rem;
+    }
+  }
 `;
 
 export const LogoImg = styled.img`
