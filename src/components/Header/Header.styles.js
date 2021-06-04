@@ -18,6 +18,15 @@ export const Content = styled.div`
     color: white;
   }
 
+  .logo {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--white);
+  }
+
 `;
 
 export const LogoImg = styled.img`
