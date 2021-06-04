@@ -8,9 +8,15 @@ import { GlobalStyle } from './GlobalStyle';
 
 export default function App() {
   return (
-    <div>
-      <Header />
+    <Router>
       <GlobalStyle />
-    </div>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* gameId can be anything; i.e., gameName */}
+        <Route path="/:gameId" element={<Game />} />
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
+    </Router>
   );
 }
