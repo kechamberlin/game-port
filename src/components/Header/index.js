@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrapper, Content, LogoImg } from './Header.styles';
+import { Wrapper, Content, LogoImg, Text } from './Header.styles';
 import GamePortLogo from '../../images/joystick-logo.svg';
 
 export default function Header() {
