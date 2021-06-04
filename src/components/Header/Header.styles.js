@@ -52,8 +52,12 @@ export const Content = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  width: 75px;
-  @media screen and (max-width: 500px) {
-    width: 50px;
+  width: 50px;
+  margin: 1rem 0.5rem;
+  @media screen and (max-width: 425px) {
+    width: 37.5px;
+  }
+`;
+
   }
 `;
