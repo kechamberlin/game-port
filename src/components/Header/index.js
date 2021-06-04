@@ -7,7 +7,9 @@ export default function Header() {
   return (
     <Wrapper>
       <Content>
-        <LogoImg src={GamePortLogo} alt="game-port-logo" />
+        <Link className="logo" to="/">
+          Game <LogoImg src={GamePortLogo} alt="game-port-logo" /> Port
+        </Link>
       </Content>
     </Wrapper>
   );
