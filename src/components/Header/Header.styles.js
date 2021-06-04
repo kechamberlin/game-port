@@ -59,5 +59,25 @@ export const LogoImg = styled.img`
   }
 `;
 
+export const Text = styled.div`
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding: 0.5rem;
+
+  p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 0.75rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    width: 50%;
+    margin: auto;
+    text-align: center;
   }
 `;
