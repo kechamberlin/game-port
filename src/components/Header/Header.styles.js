@@ -27,6 +27,20 @@ export const Content = styled.div`
     color: var(--white);
   }
 
+  .rawg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    padding: 0.25rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
 `;
 
 export const LogoImg = styled.img`
